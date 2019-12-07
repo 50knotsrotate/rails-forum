@@ -16,3 +16,28 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+
+ .reply-to-msg {
+     margin-top: 50px;
+ }
+
+ .comment {
+     border-bottom: 1px solid #ec6767;
+     padding: 15px 0;
+ }
+
+ .comment-content {
+     font-size: 0.8em;
+     color: black;
+     font-weight: bolder;
+ }
+
+ .links {
+     margin-top: 15px;
+ }
+
+ .links a {
+     color: #fff;
+     margin-right: 15px;
+ }

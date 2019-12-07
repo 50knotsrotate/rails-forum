@@ -8,9 +8,7 @@
         <h3 class = 'reply-to-msg'>Join Discussion</h3>
         <%= render 'comments/form' %>
         <div class = 'links btn-group'>
-            <%= link_to "back", root_path, class: "btn btn-default"%>
-    <%= link_to "Edit", edit_message_path, class: "btn btn-primary" %>
-    <%= link_to "Delete", message_path(@message),method: :delete,  class: "btn btn-danger", data: {confirm: "Are you sure?"} %>
+            <%= link_to "Back", root_path, class: "btn btn-success"%>
         </div>
     </div>
 </div>
